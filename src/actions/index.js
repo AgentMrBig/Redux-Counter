@@ -11,9 +11,7 @@ export const DECREMENT = 'DECREMENT';
 
 export const increment = () => {
   // Fill in this function
-  // var res = cnt + 1;
-  // console.log('increment ', res);
-  // return res;
+
   return {
     type: INCREMENT
   }
@@ -21,9 +19,7 @@ export const increment = () => {
 
 export const decrement = () => {
   // Fill in this function
-  // var res = cnt - 1;
-  // console.log('decrement ', res);
-  // return res;
+
   return {
     type: DECREMENT
   }
